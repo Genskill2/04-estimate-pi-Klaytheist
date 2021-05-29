@@ -50,7 +50,7 @@ float mc_pi(int n)
       circle++;
     square++;
   }
-  return 4*(float)(circle/square);
+  return 4*((float)circle/(float)square);
 }
   
 

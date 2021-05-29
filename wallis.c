@@ -25,9 +25,9 @@ int main(void) {
 }
 float wallis_pi(int n)
 {
-    float sum = 0;
+    float product = 1;
 	  for(int i=1; i<n+1;i++)
-		  sum+=(float)(4*i*i)/((4*i*i)-1);
+		  product+=(float)(4*i*i)/((4*i*i)-1);
     return 2*sum;
 }
 
